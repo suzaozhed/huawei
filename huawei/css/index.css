@@ -161,3 +161,123 @@
 .san2 .san2_list .san2_list_li{
     height:75px;
 }
+.list3_1{
+    width:25%;
+    height:236px;
+    display: block;
+}
+.list3_1 p{
+    margin: 26px auto 0;
+    width: 118px;
+    height: 118px;
+    text-align: center;
+   
+}
+.list3_1 p img{
+    width: 118px;
+    height: 118px;
+}
+.list3_1 div{ 
+    margin-top: 0;
+    padding-top: 0;
+    width: 129px;
+    height: 42px;
+    line-height: 1.1;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 20px 2px;
+    overflow: hidden;
+    color: #3a3a3a;
+    display: table-cell;
+    vertical-align: bottom;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center
+}
+.list3_1 .list3_1_3{
+    margin: 8px auto;
+    line-height: 1;
+}
+.si_c_1_c_left{
+    width:59px;
+    height:59px;
+    padding-top: 6px;
+    float: left;
+}
+.si_c_1_c_left img{
+    width:100%;
+}
+.si_c_1_c_right{
+    margin-left:20px;
+    width:168px;
+    float: right;
+}
+.si_c_1_c_right_top{
+    margin-top: 8px;
+    font-size: 12px;
+    color: #a4a4a4;
+    line-height: 1.3;
+    width: 168px
+}
+.si_c_1_c_right_top a{
+    color: #3a3a3a;
+    text-decoration: underline
+}
+.xin_ren,.hui_yuan{
+    display: inline-block;
+    width: 58px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #ca141d;
+    background: #FFF;
+    
+    margin-right: 10px;
+    
+}
+.xin_ren a{
+    color: #ca141d;
+}
+.hui_yuan a{
+    color: #ca141d;
+}
+.si_c_1_c_right_bottom{
+    margin-top: 8px;
+    line-height: 1.3;
+}
+.si_c_2_ul_li_a_div1{
+    width:40px;
+    height:40px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}
+.si_c_2_ul_li_a_div2{
+    font-size: 12px;
+    line-height: 20px;
+    color: #3a3a3a;
+    margin: 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.si_c_2_ul_li:nth-child(2) .si_c_2_ul_li_a_div1 img{
+    position: absolute;
+    left:-40px;
+}
+.si_c_2_ul_li:nth-child(3) .si_c_2_ul_li_a_div1 img{
+    position: absolute;
+    left:-80px;
+}
+.si_c_2_ul_li:nth-child(4) .si_c_2_ul_li_a_div1 img{
+    position: absolute;
+    left:-120px;
+}
+.si_c_2_ul_li:nth-child(5) .si_c_2_ul_li_a_div1 img{
+    position: absolute;
+    left:-160px;
+}
+.si_c_2_ul_li:nth-child(6) .si_c_2_ul_li_a_div1 img{
+    position: absolute;
+    left:-200px;
+}

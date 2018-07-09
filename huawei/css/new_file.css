@@ -75,6 +75,7 @@ html{font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino
     width: 580px;
     height: 30px;
     line-height: 30px;
+    overflow: hidden;
 }
 .list1 a{
     height:30px;
@@ -83,6 +84,9 @@ html{font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino
 }
 .list1 a span{
     float: right;
+}
+.list2{
+    overflow: hidden;
 }
 .list2 ul{
     width: 580px;
@@ -100,4 +104,42 @@ html{font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino
     line-height: 1;
     font-size: 14px;
     color: #3a3a3a;
+}
+.list3{
+    overflow: hidden;
+}
+.si_c{
+    background: #FFF;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-top: 0 none;
+    width: 1198px;
+    height: 97px;
+    margin:0 auto;
+}
+.si_c_1{
+    width: 288px;
+    height: 72px;
+    margin: 13px 0;
+    float: left;
+}
+.si_c .si_c_1 .si_c_1_c{
+    padding: 0 18px 7px 22px;
+    text-align: left;
+    color: #666;
+}
+.si_c_2{
+    float: left;
+    width: 602px;
+    border-left: 1px solid #eaeaea;
+    height: 72px;
+    margin: 13px 0;
+}
+.si_c_2_ul_li{
+    height: 72px;
+    width: 16.6666667%;
+    text-align: center;
+    padding-top: 8px;
+    float: left;
+    position: relative;
 }
