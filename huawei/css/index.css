@@ -281,3 +281,73 @@
     position: absolute;
     left:-200px;
 }
+.si_c_3_top{
+    height:48px;
+    border-bottom: 1px solid #eaeaea;
+}
+.si_c_3_top_left{
+    width:58px;
+    height:100%;
+    float: left;
+}
+.si_c_3_top_right{
+    float: right;
+    height:100%;
+    width:243px;
+}
+.si_c_3_top_left a span{
+    width: 31px;
+    height: 13px;
+    background: url(../img/icon-common.png);
+    display: block;
+    position: relative;
+    top: 17px;
+    margin: 0 auto;
+    background-position: -17px -214px;
+}
+.si_c_3_top_right ul li a{
+    color:#333;
+    line-height: 48px;
+    white-space: nowrap;
+    text-overflow:ellipsis
+}
+.si_c_3_top_right ul{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+.si_c_3_top_right ul li{
+    height:100%;
+    width:100%;
+}
+.si_c_3_bottom{
+    height:48px;
+
+}
+.si_c_3_bottom_ul{
+    height:48px;
+}
+.si_c_3_bottom_ul_li{
+    width:33.3333%;
+    float: left;
+}
+.si_c_3_bottom_ul_li a{
+    width:100%;
+    height:100%;
+    display: block;
+    color:3a3a3a;
+    line-height: 48px;
+}
+.si_c_3_bottom_ul_li a span{
+    display: inline-block;
+    height: 20px;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    top: 6px;
+    width: 20px
+}
+.si_c_3_bottom_ul_li a span img{
+    position: absolute;
+    left:-240px;
+}
