@@ -357,7 +357,7 @@
     margin:0 auto;
 }
 .liu_b{
-    height:57px;
+    height:67px;
 }
 .liu_b h2{
     color: #3a3a3a;
@@ -405,7 +405,238 @@
     text-align: center;
     line-height: 28px;
 }
-liu_content_right_li_a_p{
+.liu_content_right_li_a_p{
     margin-top:10px;
     display: block;
+}
+.liu_content{
+    overflow: hidden;
+}
+.qi_bottom{
+    width: 1200px;
+}
+.qi_ul{
+    width: 6545.45px;
+    height: 305px;
+    
+}
+.qi_li{
+    width:217px;
+    height: 100%;
+    margin-left:1px;
+    background: #FFF;
+    float: left;
+}
+.qi_li_a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.qi_li_a_img{
+    margin-top:38px;
+    margin-bottom: 10px;
+    width: 134px;
+    height: 134px;
+    display:inline-block;
+}
+.ba_div1{
+    height: 38px;
+    margin: 22px 0 12px;
+    line-height: 36px;
+    position: relative;
+}
+.ba_div1_h2{
+    font-weight: 400;
+    font-size: 22px;
+    float: left;
+}
+.ba_div1_ul{
+    float: left;
+    margin-left:28px;
+}
+.ba_div1_ul li{
+    float: left;
+    position: relative;
+}
+.ba_div1_ul li:hover:before{
+    display: block;
+    color: #ca141d;
+    content: "";
+    height: 2px;
+    width: 100%;
+  
+    background: #ca141d;
+    position: absolute;
+    bottom: 3px;
+
+}
+.ba_div1_ul li a{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #a4a4a4;
+    position: relative
+}
+.ba_div1_div{
+    float: right;
+    
+}
+.ba_div1_div a{
+    padding: 0 14px;
+    font-size: 18px;
+    color: #666;
+}
+.qi_ul{
+    margin-left: -12px;
+}
+.shou_hou{
+    padding: 46px 0 46px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden
+}
+.shou_hou ul{
+
+}
+.shou_hou ul li{
+    float: left;
+    line-height: 47px;
+    font-size: 18px;
+    text-align: left;
+    width: 25%;
+   
+}
+.shou_hou ul li a{
+    color:#333;
+    
+}
+.shou_hou ul li a i{
+    background: url(../img/icon-common.png);
+    display: inline-block;
+    line-height: 47px;
+    width: 47px;
+    height: 47px;
+    margin-right: 16px;
+    vertical-align: middle;
+    background-position: 0 -151px;
+}
+.shou_hou ul li:nth-child(2) a i{
+    background-position: -94px -151px;
+}
+.shou_hou ul li:nth-child(3) a i{
+    background-position: -141px -151px;
+}
+.shou_hou ul li:nth-child(4) a i{
+    background-position: -47px -151px;
+}
+
+.bottom_2_left{
+    width: 944px;
+    min-height: 164px;
+    margin-top: 2px;
+    border-right: 1px solid #ebebeb;
+    float: left;
+}
+.bottom_2_left_heng_xian{
+    background: #a8a8a8;
+    width: 22px;
+    height: 2px;
+    margin: 2px 0 12px 0!important;
+}
+.bottom_2_left_dl{
+    width: 16.66667%;
+    float: left;
+    margin-top: 0;
+}
+.bottom_2_left_btn{
+    font-size: 14px!important;
+    padding-bottom: 12px;
+    color: #3a3a3a;
+    display: block;
+    border-left: none;
+    padding-left: 0;
+    line-height: 1.5!important;
+    margin-bottom: 0!important;
+}
+.bottom_2_left_dl_li{
+    line-height: 24px;
+}
+.bottom_2_left_dl_li a{
+color: #666;
+}
+.bottom_2_right{
+    float: left;
+    width: 210px;
+    min-height: 164px;
+    margin-top: 2px;
+    padding-left: 40px;
+}
+.bottom_2_right_btn{
+    font-size: 24px!important;
+    
+    color: #3a3a3a;
+    display: block;
+    border-left: none;
+    padding-left: 0;
+    line-height: 1.5!important;
+    margin-bottom: 0!important;
+}
+.bottom_2_right_bot{
+
+}
+.bottom_2_right_bot a{
+    display: block;
+    width: 161px;
+    height: 35px;
+    padding: 0;
+    margin-top: 10px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #900!important;
+    border-radius: 5px;
+}
+.btn_i{
+    display: inline-block;
+    height: 18px;
+    width: 22px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background: url(../img/icon-common.png);
+    background-position: -101px -23px;
+}
+.wang_zhan_di_content_p1{
+    float: left;
+    width: 79px;
+    height: 16px;
+    padding: 20px 38px 0 0;
+}
+.wang_zhan_di_content_p1 a{
+    display: block;
+}
+.wang_zhan_di_content_p1 a img{
+    vertical-align: top;
+    width: 79px;
+    height: 16px
+}
+.wang_zhan_di_content_p2{
+    float: left;
+    margin-top: 5px;
+}
+.wang_zhan_di_content_p3{
+    float: right;
+    padding: 15px 0 0;
+}
+.wang_zhan_di_content_p3 a{
+    display: block;
+    width: 70px;
+    margin-left: 4px;
+    height: 24px;
+    float: left;
+}
+.wang_zhan_di_content_p3 a img{
+    width: 100%;
 }

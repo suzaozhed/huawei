@@ -1,6 +1,6 @@
-html,body,div,ul,li,a,p,input,h1,h2,h3,h4,h5,h6,span{padding:0;margin:0;}
+html,body,div,ul,li,a,p,input,h1,h2,h3,h4,h5,h6,span,ol,dd,dt{padding:0;margin:0;}
 li{list-style: none;}
-a{text-decoration:none;}
+a{text-decoration:none;cursor: pointer;}
 html{font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
 
 .content .left ul li:before {
@@ -165,4 +165,76 @@ html{font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino
 .wu_ul_li{
     float: left;
     padding: 0 6px;
+}
+.list_name{
+    overflow: hidden;
+}
+.qi{
+    width: 1200px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.guang_gao{
+    width: 1200px;
+    margin:26px auto 0 auto;
+    overflow: hidden;
+}
+.ba{
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.ba li{
+    margin-left:12px;
+}
+.ba_div2{
+    width: 1200px;
+    overflow: hidden;
+}
+.ba_div2 ul li{
+    width: 294px;
+}
+.ba_div2 ul li:nth-child(1),.ba_div2 ul li:nth-child(5),.ba_div2 ul li:nth-child(9){
+    margin-left:-12px;
+}
+.ba_div3{
+    overflow: hidden;
+}
+.con_bottom{
+    height:185px;
+}
+.bottom{
+    width: 100%;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+.bottom_1{
+    width: 1200px;
+    margin:0 auto;  
+}
+.bottom_2{
+    border-top: 1px solid #e8e8e8;
+    padding: 26px 0 18px;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.wang_zhan_di{
+    border-top: 1px solid #EEE;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    line-height: 1.5;
+    background: #e6e6e6;
+    width: 100%;
+    min-width: 1200px;
+}
+.wang_zhan_di_content{
+    padding: 26px 0 34px;
+    width: 1200px;
+    height:40px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.5;
+}
+.span_dd{
+    cursor: pointer;
 }
