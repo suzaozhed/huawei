@@ -4,3 +4,43 @@
 .content_right_p2{
     color:#333;
 }
+.content_right{
+    margin-top:5px;
+}
+.er{
+    width:100%;
+   background: #EBEBEB;
+}
+.er img{
+    width:100%;
+    margin:0 0;
+}
+.er_con{
+    width: 1130px;
+    margin: 0 auto;
+    position: relative;
+}
+.deng_lu{
+    margin-bottom: 30px;
+    height: 530px;
+    position: absolute;
+    left: 750px;
+    top: 30px;
+    width: 380px;
+    background-color: #FFFFFF
+}
+.deng_lu_div{
+    height:20px;
+    width:
+}
+.deng_lu_div_span1{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    cursor: pointer;
+    width: 169px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10px;
+}
