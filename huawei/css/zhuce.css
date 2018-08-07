@@ -114,3 +114,134 @@ margin:0 auto;
     color: #333;
 
 }
+.bottom_form_a{
+    margin-top: 10px;
+    background: #f7f7f7;
+    height: 42px;
+    border: 1px solid #d9d9d9;
+    border-radius: 21px;
+    position: relative
+}
+.bottom_form_a_left{
+    text-align: justify;
+    text-align-last: justify;
+    width: 90px;
+    height: 100%;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 16px;
+    line-height: 42px;
+    float: left;
+    position: relative;
+}
+.bottom_form_a_right{
+    overflow: visible;
+    cursor: pointer;
+    margin-left:123px;
+    position: relative;
+    font-size: 14px;
+    color: #333;
+    height: 100%;
+    display: block;
+}
+.bottom_form_a_right_span{
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 42px;
+    
+    line-height: 42px;
+    padding: 0 16px;
+}
+.bottom_form_a_right_sanjiao{
+    /* width: 12px;
+    height: 6px; */
+    display: inline-block;
+    background-image: url(../img/triangle_green.png);
+    background-size: cover;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 17px;
+    right:16px;
+}
+.heng_xian{
+    position: absolute;
+    
+    
+    height: 1px;
+    width: 151px;
+}
+.heng_xian div{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
+    margin-left: 10px;
+}
+.bottom_form_a_right_ul{
+    overflow-y: scroll;
+    min-width: 156px;
+    max-width: 310px;
+    width: 183px;
+    display: none;
+    position: absolute;
+    top: 36px;
+    background-color: #FFF;
+    border-radius: 5px;
+    max-height: 200px;
+    z-index: 1000;
+    color: #333;
+    cursor: pointer;
+    overflow-y: scroll;
+}
+.bottom_form_a_right_ul_li{
+    font-size: 15px;
+    padding: 8px 16px;
+    overflow: hidden;
+    line-height: 1;
+}
+.bottom_form_a_right_shouji{
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    padding-left: 12px;
+    size: 15px;
+}
+.height_j{
+    height:20px;
+}
+.btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn_this{
+    background-color: #B40707;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+}
+.bottom_form_a_right_tu{
+    height: 42px;
+    width: 100px;
+    margin-right: 14px;
+    float: right;
+}
+.bottom_form_a_right_a{
+    display: inline-block;
+    margin-top: 11px;
+    background: #f7f7f7;
+    border: none;
+    color: #007dff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.bottom_form_a_right_tu img{
+    /* margin-top: 1px; */
+    height: 100%;
+    width: 100px;
+    margin-right: 20px;
+}

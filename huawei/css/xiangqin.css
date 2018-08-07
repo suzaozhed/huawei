@@ -1,0 +1,52 @@
+.dda{
+    width:1199px;
+    margin:0 auto;
+}
+.dda_top{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px; 
+}
+.dda_bottom{
+    width:100%;
+}
+.dda_left{
+    float: left;
+    width:450px;
+}
+.dda_right{
+    float: left;
+    width:700px;
+    padding-left:30px;
+}
+.dda_left_top{
+    height:450px;
+    width:100%;
+    position: relative;
+}
+.dda_left_top li{
+    position: absolute;
+    
+}
+.dda_left_top li img{
+    height:100%;
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.dda_left_buttom{
+    height:68px;
+    width:100%;
+}
+.dda_left_buttom_ul{
+    margin:0 auto;
+    display: block;
+    height:68px;
+    width:100%;
+    text-align: center;
+}
+.dda_left_buttom_ul li{
+    float: left;
+    margin:0 2px;
+    border:1px solid #ca141d;
+}

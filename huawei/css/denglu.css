@@ -9,7 +9,7 @@
 }
 .er{
     width:100%;
-   background: #EBEBEB;
+    background-color: #081638
 }
 .er img{
     width:100%;
@@ -30,17 +30,93 @@
     background-color: #FFFFFF
 }
 .deng_lu_div{
-    height:20px;
-    width:
+    width: 100%;
+    margin: 24px auto;
+    text-align: center;
 }
 .deng_lu_div_span1{
     font-size: 20px;
     color: #333333;
     font-weight: 500;
     cursor: pointer;
-    width: 169px;
+    width: 159px;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     padding: 0 10px;
+    border-right:1px solid #ccc; 
+}
+.deng_lu_div_span2{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    cursor: pointer;
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.deng_lu_from{
+    width: 328px;
+    margin: 0 auto;
+}
+.deng_lu_from .a{
+    width:100%;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 0px;
+    outline: none;
+}
+.deng_lu_from ul li{
+width: 100%;
+}
+.underline{
+    border-bottom: 1px solid #cccccc;
+    color:#333;
+}
+.padding{
+    padding:16px 0;
+}
+.padding input{
+    line-height: 10px;
+}
+.button{
+    width:100%;
+    height:44px;
+}
+.button input{
+    width:100%;
+    height: 100%;
+    border-color: #BC0000 !important;
+    color: #B00;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #B40707;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #B40707;
+    color: #fff;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.li{
+    height:44px;
+}
+.a1{
+    float: right;
+    line-height: 44px;
+}
+.li2{
+    
+    text-align: center;
+}
+.a2{
+    padding:0 10px;
+}
+.a3{
+border-right:1px solid #ccc;
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#p{
+				display: none;
+				color: black;
+                position: absolute;
+				height: 40px;
+				border: 1px solid #000000;
+			}
+			#btn{
+				width: 40px;
+				color: #ffffff;
+				background: #0066CC;
+				position: relative;
+			}
+			
+		</style>
+		
+		  
+	</head>
+	<body>
+		<div id='btn'>点击
+		
+		<p id='p'>wahaha</p></div>
+	</body>
+</html>
+<script>
+var p =document.getElementById('p')
+var btn = document.getElementById('btn')
+
+btn.onclick=function(e){
+	var e = e||window.event
+	
+	e.stopPropagation?e.stopPropagation():e.cancelBubble = true
+	alert('出现')
+	
+	p.style.display='block'
+	
+}
+
+p.onclick=function(e){
+	var e = e||window.event
+	 alert('消失')
+e.stopPropagation?e.stopPropagation():e.cancelBubble = true
+	
+	p.style.display='none'
+
+}
+
+document.onclick=function(){
+	alert('消失')
+	
+	p.style.display='none'
+}
+</script>
