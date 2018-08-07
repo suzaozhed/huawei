@@ -24,9 +24,8 @@
     width:100%;
     position: relative;
 }
-.dda_left_top li{
+.dda_left_top_li{
     position: absolute;
-    
 }
 .dda_left_top li img{
     height:100%;
@@ -48,5 +47,5 @@
 .dda_left_buttom_ul li{
     float: left;
     margin:0 2px;
-    border:1px solid #ca141d;
+    border:none;
 }
